@@ -18,3 +18,4 @@ create_project_hash
 #project_thumbnail = project.css("div.project-thumbnail a img").attribute("src").value
 #project_description = project.css("p.bbcard_blurb").text
 #project_location = project.css("ul.project-meta li a span.location_name").text
+#funding = project.css("ul.project-stats li.first.funded strong").text.gsub("%", "").to_i
