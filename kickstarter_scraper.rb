@@ -15,5 +15,5 @@ create_project_hash
 
 #project = kickstarter.css("li.project.grid_4")
 #project_title = project.css("h2.bbcard_name strong a").text
-#project_thumbnail = project.css("div.project-thumbnail a img").attribute("src").value 
-#project_description = project.css("p.bbcard_blurb").text 
+#project_thumbnail = project.css("div.project-thumbnail a img").attribute("src").value
+#project_description = project.css("p.bbcard_blurb").text
