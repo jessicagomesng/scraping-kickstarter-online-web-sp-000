@@ -17,3 +17,4 @@ create_project_hash
 #project_title = project.css("h2.bbcard_name strong a").text
 #project_thumbnail = project.css("div.project-thumbnail a img").attribute("src").value
 #project_description = project.css("p.bbcard_blurb").text
+#project_location = project.css("ul.project-meta li a span.location_name").text
